@@ -1,9 +1,15 @@
+/*Using the font sizes and colours provided*/
 body{
+    display: flex;
+    flex-direction: column;
     font-family: Roboto;
+    margin: 0;
 }
 
 ul{
     list-style: none;
+    display: flex;
+    gap: 16px;
 }
 
 .content-text{
@@ -21,7 +27,7 @@ ul{
     color: #F9FAF8;
 }
 
-ul, .subtext{
+ul, .subtext, .footer{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -46,4 +52,83 @@ button, .bluebox{
     font-size: 36px;
     color: #1F2937;
     
+}
+
+/*Logo and link section*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px 250px;
+}
+
+/*First content section*/
+.intro{
+    display: flex;
+    padding: 150px 80px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Used to wrap the text in first content section*/
+.subtext, .content-text{
+    width: 500px;
+    text-wrap: wrap;
+}
+
+/*Default style for all the buttons*/
+button{
+    display: flex;
+    align-self: flex-start;
+    padding: 8px 30px;
+    border-radius: 10px;
+    border-style: none;
+    font-weight: bolder;
+}
+
+/*Create spacing between the words and button*/
+.fcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/*Random information section*/
+.pictures{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    padding-bottom: 100px;
+    gap: 50px;
+}
+
+/*Flex row and add gap between each flower picture*/
+.flower-list{
+    display: flex;
+    gap: 50px;
+}
+
+/*Align words to the center and wrap text*/
+.text{
+    text-align: center;
+    text-wrap: wrap;
+    width: 150px;
+}
+
+/*Style for the individual flower pictures*/
+.flowerpic{
+    width: 175px;
+    height: 175px;
+    border:5px solid #3882F6;
+    border-radius: 10px;
+}
+
+/*Center text with flower picture and add gap between pictures and words*/
+.one, .two, .three, .four{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
