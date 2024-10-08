@@ -1,0 +1,49 @@
+body{
+    font-family: Roboto;
+}
+
+ul{
+    list-style: none;
+}
+
+.content-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.header, .intro, .footer{
+    background-color: #1F2937;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul, .subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.pic-head{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+
+button, .bluebox{
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.quote{
+    background-color: #E5E7EB;
+}
+
+.quote-text{
+    font-size: 36px;
+    color: #1F2937;
+    
+}
