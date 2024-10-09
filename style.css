@@ -44,14 +44,11 @@ button, .bluebox{
     color: #F9FAF8;
 }
 
-.quote{
-    background-color: #E5E7EB;
-}
-
 .quote-text{
     font-size: 36px;
     color: #1F2937;
-    
+    width: 850px;
+    text-wrap: wrap;
 }
 
 /*Logo and link section*/
@@ -84,6 +81,7 @@ button{
     border-radius: 10px;
     border-style: none;
     font-weight: bolder;
+    font-size: 15px;
 }
 
 /*Create spacing between the words and button*/
@@ -131,4 +129,53 @@ button{
     flex-direction: column;
     align-items: center;
     gap: 10px;
+}
+
+/*Add padding to the side and align quote and author to center*/
+.quote{
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+/*Define a smaller box to align the quote author*/
+.quote-con{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Align quote author to flex end*/
+.quote-auth{
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+/*Define margin and center content*/
+.bluebox{
+    margin: 75px 200px;
+    padding: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+/*Call to action text*/
+.call{
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+/*Add white border to default border style*/
+.white-border{
+    border: 2px solid white;
+}
+
+/*Style for footer*/
+.footer{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
 }
